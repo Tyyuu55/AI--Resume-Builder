@@ -21,8 +21,7 @@ AI Resume Builder is a modern web application that helps users create profession
 - **AI Integration:** Gemini API
 - **Deployment:**
   - Frontend on [Vercel](https://vercel.com/)
-  - Backend on [Render](https://render.com/)
-
+  -Backen on Render
 ---
 
 ## Live Demo
