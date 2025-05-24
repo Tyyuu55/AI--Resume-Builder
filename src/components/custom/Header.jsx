@@ -14,26 +14,55 @@ function Header() {
           width={70}
           height={70}
           alt="Logo"
-          className="fill-current text-black"
+          className="object-contain"
         />
 
         {/* Home Link as Text */}
-        <Link
-          to="/"
-          className="text-black text-sm font-medium hover:underline hover:text-zinc-800 transition duration-200"
-        >
-          Home
-        </Link>
+       <Link
+  to="/"
+  className="
+    relative
+    flex
+    items-center
+    h-full
+    text-black
+    text-base
+    font-semibold
+    px-4
+    cursor-pointer
+    select-none
+    transition-colors
+    duration-300
+    hover:text-zinc-700
+  "
+>
+  Home
+  <span
+    className="
+      absolute
+      bottom-0
+      left-0
+      w-0
+      h-[2px]
+      bg-black
+      transition-all
+      duration-300
+      group-hover:w-full
+    "
+  />
+</Link>
+
+
       </div>
 
       <div className="flex gap-2 items-center">
         {/* Career Help Button */}
         <Link to="/dashboard/career-help">
-          <button
-            className="bg-black text-white text-sm py-2 px-4 font-semibold uppercase transition duration-300 ease-in-out transform hover:bg-zinc-800 rounded-md"
+          <Button
+            className="bg-black text-white text-sm uppercase py-2 px-4 font-semibold transition duration-300 ease-in-out hover:bg-zinc-800 rounded-md"
           >
             Career Help
-          </button>
+          </Button>
         </Link>
 
         {/* Conditional Rendering Based on User's Sign-in Status */}
