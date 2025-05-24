@@ -27,7 +27,7 @@ AI Resume Builder is a modern web application that helps users create profession
 ## Live Demo
 
 - Frontend: [https://ai-resume-builder-trv5.vercel.app/](https://ai-resume-builder-trv5.vercel.app/)
-- Backend API & Admin Panel: [https://ai-resume-builder-strapiadmin.onrender.com/](https://ai-resume-builder-strapiadmin.onrender.com/)
+
 
 ---
 
